@@ -48,15 +48,32 @@ The models included in this repository focus on:
 
 ---
 
+## Repository Structure
+```
+industrial-simulation-lab/
+│
+├── README.md
+├── requirements.txt
+├── scripts/
+│ ├── cstr_dynamic_arrhenius.py
+│ ├── thermal_tank_step_heat.py
+│
+└── figures/
+```
+
+---
+
 ## How to Run
 
 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+python scripts/cstr_dynamic_arrhenius.py
+```
 
+## Maintainer
 
-## Author
-
-Jesús  Valera Echeverria  
+Jesús Valera Echeverria
 Chemical Engineer | Process & Dynamic Modelling
+Focus: Industrial Simulation & Dynamic Systems
